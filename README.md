@@ -26,7 +26,7 @@ Enter the password (stdin) when prompted.
 
 ## network_config.cfg 
 
-The default is configured to the host OS ethernet naming convention and uses dhcp4.
+The default configuration uses the guest OS ethernet naming convention and is set to dhcp4.
 
 
 
