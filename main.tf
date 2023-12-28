@@ -26,7 +26,7 @@ resource "libvirt_volume" "os_image" {
   count  = length(var.hostname)
   name   = "os_image.${var.hostname[count.index]}"
   pool   = "default"
-  source = "/export/qcow2/bionic-amd64.qcow2"
+  source = <path to qcow2 image file>
   format = "qcow2"
 }
 
