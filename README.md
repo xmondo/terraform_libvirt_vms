@@ -28,6 +28,17 @@ Enter the password (stdin) when prompted.
 
 The default configuration uses the guest OS ethernet naming convention and is set to dhcp4.
 
+## Usage
+
+`terraform init`
+
+`terraform fmt`
+
+`terraform validate`
+
+`terraform plan -out=<execution plan name>`
+
+`terraform apply <execution plan name>`
 
 
 
