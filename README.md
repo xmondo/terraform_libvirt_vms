@@ -1,6 +1,6 @@
 # Terraform Libvirt VMs
 
-Terraform configuration file to deploy one or more KVM guests.
+Terraform configuration file to deploy one or more KVM guests with an Ansible user for post-deployment configuration tasks. 
 
 # Usage
 
