@@ -22,6 +22,10 @@ Edit <b><i>cloud_init.cfg</b></i> and update the Ansible user name, user name gr
 
 Type the password (to stdin) when prompted. 
 
+## network_config.cfg 
+
+The default is configured to the host OS ethernet naming convention and uses dhcp4.
 
 
-4. 
+
+
