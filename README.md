@@ -22,7 +22,7 @@ Edit <b><i>cloud_init.cfg</b></i> and update the Ansible user name, user name gr
 
 `mkpasswd -m SHA-512|SHA-256|md5 -s` 
 
-Type the password (to stdin) when prompted. 
+Enter the password (stdin) when prompted. 
 
 ## network_config.cfg 
 
