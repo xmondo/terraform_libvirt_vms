@@ -13,8 +13,8 @@ Additonal <b><i>main.tf</b></i> variables include:
 - domain { default = "local" }
 - memoryMB { default = 1024 * 2 }
 - cpu { default = 2 }
-- resource "libvirt_volume" source = <path to qcow2 cloudinit image>
-- resource "libvirt_domain" network_interface network_name = <kvm network>
+- resource "libvirt_volume" source = `<path to qcow2 cloudinit image>`
+- resource "libvirt_domain" network_interface network_name = `<kvm network>`
 
 ## 2. cloud_init.cfg
 
