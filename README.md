@@ -13,6 +13,7 @@ Additonal <b><i>main.tf</b></i> variables include:
 - domain { default = "local" }
 - memoryMB { default = 1024 * 2 }
 - cpu { default = 2 }
+- resouce "libvirt_volume" source = <path to qcow2 cloudinit image>
 
 ## 2. cloud_init.cfg
 
