@@ -62,7 +62,7 @@ resource "libvirt_domain" "domain-ubuntu" {
     volume_id = element(libvirt_volume.os_image.*.id, count.index)
   }
   network_interface {
-    network_name = "bridge_br0"
+    network_name = <kvm network>
   }
   cloudinit = libvirt_cloudinit_disk.commoninit[count.index].id
   console {
