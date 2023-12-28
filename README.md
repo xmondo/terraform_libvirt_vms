@@ -6,7 +6,7 @@ Terraform configuration file to deploy one or more KVM guests.
 
 Edit <b><i>main.tf</b></i> and update the <b><i>hostname</b></i> array. 
 
-Additonal variables include: 
+Additonal <b><i>main.tf</b></i> variables include: 
 
 - domain { default = "local" }
 - memoryMB { default = 1024 * 2 }
