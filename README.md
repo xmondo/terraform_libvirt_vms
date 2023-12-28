@@ -2,9 +2,9 @@
 
 Terraform configuration file to deploy one or more KVM guests with an Ansible user for post-deployment configuration tasks. 
 
-# Preliminaries
+## Preliminaries
 
-## 1. main.tf 
+### 1. main.tf 
 
 Edit <b><i>main.tf</b></i> and update the <b><i>hostname</b></i> array. 
 
@@ -16,7 +16,7 @@ Additonal <b><i>main.tf</b></i> variables include:
 - resource "libvirt_volume" `<volume name>` source = `<path to qcow2 cloudinit image>`
 - resource "libvirt_domain" network_interface network_name = `<kvm network>`
 
-## 2. cloud_init.cfg
+### 2. cloud_init.cfg
 
 Edit <b><i>cloud_init.cfg</b></i> and update the Ansible user name, user name group, hashed password and ssh authorization key. Update the root login password (if any). The following is an option to generate the Ansible user hashed password:
 
@@ -24,7 +24,7 @@ Edit <b><i>cloud_init.cfg</b></i> and update the Ansible user name, user name gr
 
 Enter the password (stdin) when prompted. 
 
-## network_config.cfg 
+### network_config.cfg 
 
 The default configuration uses the guest OS ethernet naming convention and is set to dhcp4.
 
